@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*.parallax
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 600%;
+  display: inline-block;
+  z-index: -10;
+}
+*/
+
+div.center {
+  text-align: center ;
+}
+
+div.left {
+  text-align: left;
+}
+
+
+.col-sm-3 {
+  padding-left:70px;
+  padding-right:0px;
+  height:-100px;
+}
+
+.topbar {
+
+  background-color: white;
+}
+
+
+
+body {
+  background-color:transparent;
+  text-align: center;
+
+}
+
+#BlazedRTs {
+  text-align: center;
+  font-family: 'Roboto';
+  transform:translateY(10px);
+  margin-bottom:20px;
+}
+
+.nav-pills li a:hover {
+  /* Här skriver du vad som skall ändras. */
+    background-color: blue;
+}
+
+#affi {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.box {
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  padding: 25px;
+  margin-y:-20px auto;
+  background: #0D0D0D;
+  border-radius: 200px;
+  cursor: pointer;
+  transform: translate(1px, 140px);
+  transition: 1s;
+  display: inline-block;
+  border-color:white;
+  border-style:solid;
+
+}
+
+.box:hover{
+  background: #0D0D0D;
+  border-radius: 100px;
+  width: 105px;
+
+}
+
+#affiliates {
+  transform: translateY(-10px);
+  color:white;
+}
+
+#affiliates:hover {
+  color:white;
+}
+
+
+
+#indexaff {
+  margin:0 ;
+}
+
+
+
+
+
+.topcontainer {
+  display: inline-block;
+}
+
+.topspace {
+  margin-top: 50px;
+}
+
+
+#rollText {
+  transform: translateY(100px);
+  color:#d61b1b;
+}
+
+
+#CSGOOEmpire {
+  transform: translateY(100px);
+  color:#3668c4;
+}
+
+#bountyText {
+  transform: translateY(100px);
+  color:#d01dd6;
+}
+
+#societyText {
+  transform: translateY(100px);
+  color:#ffffff;
+}
+
+#bountyLogo {
+  transform: translateY(-34px);
+  color:#3668c4;
+  width:90px;
+}
+
+#societyLogo {
+  transform: translateY(-15px);
+  color:#3668c4;
+  width:150px;
+}
+
+#rollLogo {
+  transform: translateY(-40px);
+  color:#3668c4;
+  width:100px;
+}
+
+
+#exLogo {
+  transform: translateY(-40px);
+  color:#3668c4;
+  width:100px;
+}
+
+#exText {
+  transform: translateY(100px);
+  color:#edd012;
+}
+
+#emeraldText {
+  transform: translateY(100px);
+  color:#2dce48;
+}
+
+#emeraldLogo {
+  transform: translateY(-20px);
+  color:#2dce48;
+  width:150px;
+}
+
+#skinhubText {
+  transform: translateY(100px);
+  color:#FACD32;
+}
+
+#skinhubLogo {
+  transform: translateY(-20px);
+  color:#ffffff;
+  width:150px;
+}
+
+#liveText {
+  transform: translateY(100px);
+  color:#ffffff;
+}
+
+#liveLogo {
+  transform: translateY(-20px);
+  color:#edd012;
+  width:150px;
+}
+
+#howlText {
+  transform: translateY(100px);
+  color:#ed1026;
+}
+
+#howlLogo {
+  transform: translateY(-20px);
+  color:#edd012;
+  width:150px;
+}
+
+#kingdomText {
+  transform: translateY(100px);
+  color:#FACD32;
+}
+
+#kingdomLogo {
+  transform: translateY(-45px);
+  color:#edd012;
+  width:100px;
+}
+
+#wildcaseText {
+  transform: translateY(100px);
+  color:#490e7c;
+}
+
+#wildcaseLogo {
+  transform: translateY(-30px);
+  color:#490e7c;
+  width:160px;
+}
+
+#atseText {
+  transform: translateY(100px);
+  color:#ffffff;
+}
+
+#atseLogo {
+  transform: translateY(-40px);
+  color:#490e7c;
+  width:100px;
+}
+
+#fiveText {
+  transform: translateY(100px);
+  color:#C83954;
+}
+
+#fiveLogo {
+  transform: translateY(-60px);
+  color:#490e7c;
+  width:130px;
+}
